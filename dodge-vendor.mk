@@ -44,9 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt \
     vendor/oneplus/dodge/proprietary/odm/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt \
     vendor/oneplus/dodge/proprietary/odm/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Vivid_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Vivid_pGC.txt \
-    vendor/oneplus/dodge/proprietary/odm/etc/acdbdata/FTM/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/acdb_cal.acdb \
-    vendor/oneplus/dodge/proprietary/odm/etc/acdbdata/MOS/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MOS/acdb_cal.acdb \
-    vendor/oneplus/dodge/proprietary/odm/etc/acdbdata/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/acdb_cal.acdb \
     vendor/oneplus/dodge/proprietary/odm/etc/acdbdata/up_ve_enpuv5_ha.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv5_ha.eai \
     vendor/oneplus/dodge/proprietary/odm/etc/acdbdata/up_ve_enpuv5_hh.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv5_hh.eai \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
@@ -116,8 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/dodge_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/dodge_qrd_ois_system.json \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/json_list:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/json_list \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
-    vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/oplus_flight_detect.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_flight_detect.json \
-    vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/oplus_rotation_detect.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_rotation_detect.json \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/pakala_mtp_ak09919.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_ak09919.json \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/pakala_mtp_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_alsps.json \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/pakala_mtp_alsps_hw_tcs3720.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_alsps_hw_tcs3720.json \
@@ -226,11 +221,34 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/soft/effect_7.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/soft/effect_7.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/soft/effect_8.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/soft/effect_8.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/vibrator_effect.json:$(TARGET_COPY_OUT_ODM)/etc/vibrator/vibrator_effect.json \
+    vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlan.b0a:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.b0a \
+    vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlan.b0c:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.b0c \
+    vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlan.b0e:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.b0e \
+    vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlan.b0i:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.b0i \
     vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.elf \
+    vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlang.b0a:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlang.b0a \
+    vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlang.b0c:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlang.b0c \
+    vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlang.b0e:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlang.b0e \
+    vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlang.b0i:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlang.b0i \
     vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/bdwlang.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlang.elf \
     vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/regdb.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/wifi/peach/regdb_version:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/regdb_version \
     vendor/oneplus/dodge/proprietary/odm/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw882xx_acf.bin \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/23821/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/23821/charging_hyper_mode_config.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/23821/single_charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/23821/single_charging_hyper_mode_config.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/23893/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/23893/charging_hyper_mode_config.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/23893/single_charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/23893/single_charging_hyper_mode_config.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/batt_dchg_ctrl_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/batt_dchg_ctrl_config_table.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/batt_eis_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/batt_eis_config.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/batt_si_loss_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/batt_si_loss_config_table.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/bms_heating_config.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/charge_time_config.csv:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charge_time_config.csv \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/silicon_p_770_batt_dchg_ctrl_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/silicon_p_770_batt_dchg_ctrl_config_table.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/silicon_p_770_batt_eis_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/silicon_p_770_batt_eis_config.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/silicon_p_770_batt_si_loss_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/silicon_p_770_batt_si_loss_config_table.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/silicon_p_770_smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/silicon_p_770_smart_chg_config_table.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/smart_chg_config_table.txt \
     vendor/oneplus/dodge/proprietary/odm/firmware/tof8801_firmware.bin:$(TARGET_COPY_OUT_ODM)/firmware/tof8801_firmware.bin \
     vendor/oneplus/dodge/proprietary/odm/firmware/tp/23821/FW_S3910_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23821/FW_S3910_BOE.img \
     vendor/oneplus/dodge/proprietary/odm/firmware/tp/23821/FW_S3910_BOEB8_HBP.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23821/FW_S3910_BOEB8_HBP.img \
@@ -287,6 +305,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/firmware/uff_spi.b07:$(TARGET_COPY_OUT_ODM)/firmware/uff_spi.b07 \
     vendor/oneplus/dodge/proprietary/odm/firmware/uff_spi.b08:$(TARGET_COPY_OUT_ODM)/firmware/uff_spi.b08 \
     vendor/oneplus/dodge/proprietary/odm/firmware/uff_spi.mdt:$(TARGET_COPY_OUT_ODM)/firmware/uff_spi.mdt \
+    vendor/oneplus/dodge/proprietary/vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_mtp/acdb_cal.acdb \
     vendor/oneplus/dodge/proprietary/vendor/etc/display/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml \
     vendor/oneplus/dodge/proprietary/vendor/etc/display_apollo_list_AA569_P_3_A0019_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA569_P_3_A0019_dsc_cmd_mode_panel.xml \
     vendor/oneplus/dodge/proprietary/vendor/etc/display_dbvgain_config_AA569_P_3_A0019_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_dbvgain_config_AA569_P_3_A0019_dsc_cmd_mode_panel.xml \

@@ -1,5 +1,5 @@
 {
-  "config":{
+  "config": {
     "hw_platform": ["MTP", "Surf", "RCM", "QRD", "HDK"],
     "soc_id": ["618"]
   },
