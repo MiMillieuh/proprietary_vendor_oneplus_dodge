@@ -54,7 +54,7 @@
 {
   "VendorTag": "com.oplus.aps.params.bokeh",
   "Type": "Int32",
-  "Count": "216",
+  "Count": "270",
   "Value": "  270,      2,    1,             0,            0,                     8,                  800,             4096,3072,4096,3072,4096,3072,4096,3072,1,0,        3136,2352,3136,2352,3136,2352,3136,2352,1,0,
               0,        2,    1,             0,            0,                     8,                  800,             4096,3072,4096,3072,4096,3072,4096,3072,1,0,        1440,1080,1440,1080,1440,1080,1440,1080,1,0,
               180,      2,    1,             1,            0,                     8,                  800,             4096,3072,4096,3072,4096,3072,4096,3072,1,0,        4096,3072,1920,1440,4096,3072,4096,3072,1,0,
@@ -62,7 +62,9 @@
               270,      2,    1,             0,            0,                     8,                  800,             4096,3072,2048,1536,4096,3072,4096,3072,1,0,        3136,2352,1664,1248,3136,2352,3136,2352,1,0,
               270,      2,    1,             0,            0,                     8,                  800,             4096,3072,2048,1536,4096,3072,4096,3072,1,0,        3136,2352,1664,1248,3136,2352,3136,2352,1,0,
               270,      2,    1,             0,            0,                     8,                  800,             4096,3072,2767,2075,4096,3072,4096,3072,1,0,        3136,2352,2118,1589,3136,2352,3136,2352,1,0,
-              180,      2,    1,             1,            0,                     8,                  800,             4096,3072,3520,2640,4096,3072,4096,3072,1,0,        1920,1440,1650,1237,1920,1440,1920,1440,1,0",
+              180,      2,    1,             1,            0,                     8,                  800,             4096,3072,3520,2640,4096,3072,4096,3072,1,0,        1920,1440,1650,1237,1920,1440,1920,1440,1,0,
+              270,      2,    1,             0,            0,                     8,                  800,             4096,3072,2048,1536,4096,3072,4096,3072,1,0,        4096,3072,1664,1248,3136,2352,3136,2352,1,0,
+              270,      2,    1,             0,            0,                     8,                  800,             4096,3072,1920,1440,1920,1440,1920,1440,1,0,        3136,2352,1664,1248,1664,1248,1664,1248,1,0",
   "Comment": "rotation, mode, dualCalitype,  isTeleMaster, isAppSetBlurintensity, foregroundBlurScale,runTimeMemSize,  masterImageInfo /*struct cameraImageSize_t*/,       slaveImageInfo /*struct cameraImageSize_t*/"
 },
 
@@ -117,7 +119,7 @@
 {
   "VendorTag": "com.oplus.aps.params.rtb",
   "Type": "Int32",
-  "Count": "262",
+  "Count": "326",
   "Value": "  270 /*1x rotation*/, 1 /*focusRectValid*/, 1 /*refocusOn*/, 2 /*refocus_mode*/, 6 /*foregroundBlurScale*/, 12 /*curveVal*/, 700 /*farDistanceThres*/, 20 /*nearDistanceThres*/, 542 /*lowLightTriggerIsoHigh*/, 535 /*lowLightTriggerIsoLow*/,
                    1280 /*ispOutWidth*/, 960 /*ispOutHeight*/, 0 /*c2sReSizeTypeMaster*/, 2 /*s2iReSizeTypeMaster*/, 1 /*c2sReSizeTypeSlave*/, 2 /*s2iReSizeTypeSlave*/,
                    4096 /*masterPictureWidth*/,3072 /*masterPictureHeight*/, 3136 /*slavePictureWidth*/, 2352 /*slavePictureHeight*/, 0 /*isTeleMaster*/,
@@ -158,7 +160,17 @@
                    1280 /*ispOutWidth*/, 960 /*ispOutHeight*/, 0 /*c2sReSizeTypeMaster*/, 2 /*s2iReSizeTypeMaster*/, 1 /*c2sReSizeTypeSlave*/, 2 /*s2iReSizeTypeSlave*/,
                    4096 /*masterPictureWidth*/,3072 /*masterPictureHeight*/, 1920 /*slavePictureWidth*/, 1440 /*slavePictureHeight*/, 1 /*isTeleMaster*/,
               1 /*isValid*/, 4096/*sensorOutWidthMaster*/, 3072/*sensorOutHeightMaster*/, 3168/*sensorCropWidthMaster*/, 2376/*sensorCropHeightMaster*/,
-                   1920/*sensorOutWidthSlave*/, 1440/*sensorOutHeightSlave*/,1485/*sensorCropWidthSlave*/, 1114/*sensorCropHeightSlave*/,1280/*ispOutWidthSlave*/,960/*ispOutHeightSlave*/",
+                   1920/*sensorOutWidthSlave*/, 1440/*sensorOutHeightSlave*/,1485/*sensorCropWidthSlave*/, 1114/*sensorCropHeightSlave*/,1280/*ispOutWidthSlave*/,960/*ispOutHeightSlave*/,
+              270 /*6x fallback rotation*/, 1 /*focusRectValid*/, 1 /*refocusOn*/, 2 /*refocus_mode*/, 6 /*foregroundBlurScale*/, 12 /*curveVal*/, 300 /*farDistanceThres*/, 20 /*nearDistanceThres*/, 535 /*lowLightTriggerIsoHigh*/, 525 /*lowLightTriggerIsoLow*/,
+                   1280 /*ispOutWidth*/, 960 /*ispOutHeight*/, 0 /*c2sReSizeTypeMaster*/, 2 /*s2iReSizeTypeMaster*/, 1 /*c2sReSizeTypeSlave*/, 2 /*s2iReSizeTypeSlave*/,
+                   4096 /*masterPictureWidth*/,3072 /*masterPictureHeight*/, 1664 /*slavePictureWidth*/, 1248 /*slavePictureHeight*/, 0 /*isTeleMaster*/,
+              1 /*isValid*/, 4096/*sensorOutWidthMaster*/, 3072/*sensorOutHeightMaster*/, 2048/*sensorCropWidthMaster*/, 1536/*sensorCropHeightMaster*/,
+                   3136/*sensorOutWidthSlave*/, 2352/*sensorOutHeightSlave*/,1664/*sensorCropWidthSlave*/, 1248/*sensorCropHeightSlave*/,1280/*ispOutWidthSlave*/,960/*ispOutHeightSlave*/,
+              270 /*3x fallback rotation*/, 1 /*focusRectValid*/, 1 /*refocusOn*/, 2 /*refocus_mode*/, 6 /*foregroundBlurScale*/, 12 /*curveVal*/, 700 /*farDistanceThres*/, 46 /*nearDistanceThres*/, 542 /*lowLightTriggerIsoHigh*/, 535 /*lowLightTriggerIsoLow*/,
+                   1280 /*ispOutWidth*/, 960 /*ispOutHeight*/, 0 /*c2sReSizeTypeMaster*/, 2 /*s2iReSizeTypeMaster*/, 1 /*c2sReSizeTypeSlave*/, 2 /*s2iReSizeTypeSlave*/,
+                   1920 /*masterPictureWidth*/,1440 /*masterPictureHeight*/, 1664 /*slavePictureWidth*/, 1248 /*slavePictureHeight*/, 0 /*isTeleMaster*/,
+              1 /*isValid*/, 1920/*sensorOutWidthMaster*/, 1440/*sensorOutHeightMaster*/, 1920/*sensorCropWidthMaster*/, 1440/*sensorCropHeightMaster*/,
+                   1664/*sensorOutWidthSlave*/, 1248/*sensorOutHeightSlave*/,1664/*sensorCropWidthSlave*/, 1248/*sensorCropHeightSlave*/,1280/*ispOutWidthSlave*/,960/*ispOutHeightSlave*/",
   "Comment": "JsonParamsRtb: include rear and front"
 },
 
@@ -1589,7 +1601,7 @@
   "VendorTag": "com.oplus.aps.params.quickshot.threshold",
   "Type": "Int32",
   "Count": "5",
-  "Value": "  7,                6,                 2550,             3900,           3800",
+  "Value": "  3,                4,                 2650,             3900,           3800",
   "Comment": "mainAlgoCntLimit, alterAlgoCntLimit, singleCapPeakMem, cameraMemLimit, cameraMemLimitLow"
 },
 

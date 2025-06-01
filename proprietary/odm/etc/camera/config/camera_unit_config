@@ -123,6 +123,7 @@
     "rear_dual_sat_hdr_case":[{"preview":"rear_dual_sat"}, {"raw16_output":"rear_dual_sat"}, {"raw_output":"rear_dual_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_wide"}],
     "none_sat_night_case":[{"preview":"rear_main"}, {"raw16_output":"rear_main"}, {"raw_output":"rear_main"}, {"capture":"rear_main"}],
     "portrait_bokeh_case":[{"capture_meta":"rear_main"}, {"preview":"rear_main"}, {"preview":"rear_wide"}, {"raw_output":"rear_main"}, {"raw_output":"rear_wide"}, {"capture_raw10_dol":"rear_main"}],
+    "portrait_bokeh_fallback_case":[{"capture_meta":"rear_sat"}, {"preview":"rear_main"}, {"preview":"rear_wide"}, {"preview":"rear_ultra_wide"}, {"raw_output":"rear_main"}, {"raw_output":"rear_wide"}, {"raw_output":"rear_ultra_wide"}, {"capture_raw10_dol":"rear_main"}],
     "single_portrait_case":[{"preview":"var_camera"}, {"capture":"var_camera"}],
     "portrait_single_frame_bokeh_case":[{"preview":"rear_main"}, {"preview":"rear_wide"}, {"raw_output":"rear_main"}, {"raw_output":"rear_wide"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_wide"}, {"capture_raw_dol":"rear_main"}],
     "front_single_mfnr_portrait_case":[{"capture_meta":"rear_main"}, {"preview":"var_camera"}, {"raw_output":"var_camera"}, {"capture_yuv":"var_camera"}, {"capture_yuv_mfnr":"var_camera"}],

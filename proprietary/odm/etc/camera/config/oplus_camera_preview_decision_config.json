@@ -925,38 +925,6 @@
                 "planCondition":{
                   "and":{
                     "eq":[
-                      "forceMacroMode",
-                      1
-                    ],
-                    "eq1":[
-                      "currentPipeline",
-                      1
-                    ],
-                    "not_eq":[
-                      "captureMode",
-                      "APS_CAPMODE_REAR_NIGHT"
-                    ],
-                    "eq2":[
-                      "iZoomBinningTrigger",
-                      0
-                    ],
-                    "gt":[
-                      "zoomRatio",
-                      1.9999
-                    ]
-                  }
-                },
-                "planResult":{
-                  "featureType":"APS_FEATURE_TURBO_RAW_IZOOM_2DOL_QBC",
-                  "originalType":"APS_FEATURE_TURBO_RAW_IZOOM_2DOL_QBC",
-                  "remapType":"APS_FEATURE_TURBO_RAW_IZOOM_2DOL_QBC",
-                  "sensorMode":"APS_SENSOR_MODE_IZOOM_2DOL_QBC"
-                }
-              },
-              {
-                "planCondition":{
-                  "and":{
-                    "eq":[
                       "currentPipeline",
                       1
                     ],
@@ -971,10 +939,6 @@
                     "gt":[
                       "zoomRatio",
                       1.9999
-                    ],
-                    "lt":[
-                      "zoomRatio",
-                      3.0000
                     ]
                   }
                 },
@@ -1824,7 +1788,23 @@
             "eq1":[
               "isSupportTurboRaw2Dol",
               true
-            ]
+            ],
+            "not":{
+              "and":{
+                "gt":[
+                  "zoomRatio",
+                  2.9999
+                ],
+                "lt":[
+                  "zoomRatio",
+                  6.0000
+                ],
+                "eq":[
+                  "oplusMeta->com.oplus.MicroDistance",
+                  101
+                ]
+              }
+            }
           }
         },
         "algoResult":[
@@ -4585,6 +4565,34 @@
                 }
               }
             ]
+          },
+          {
+            "defaultResult":{
+              "isPortraitFallback":0
+            },
+            "plan":[
+              {
+                "planCondition":{
+                  "and":{
+                    "gt":[
+                      "zoomRatio",
+                      2.9999
+                    ],
+                    "lt":[
+                      "zoomRatio",
+                      6.0000
+                    ],
+                    "eq":[
+                      "oplusMeta->com.oplus.MicroDistance",
+                      101
+                    ]
+                  }
+                },
+                "planResult":{
+                  "isPortraitFallback":1
+                }
+              }
+            ]
           }
         ]
       },
@@ -4730,6 +4738,10 @@
                     "lt":[
                       "oplusMeta->com.qti.stats_control.hdr_EV_Minus",
                       -29.9999
+                    ],
+                    "eq":[
+                      "isTouchActive",
+                      false
                     ]
                   }
                 },
@@ -4761,6 +4773,10 @@
                     "gt1":[
                       "oplusMeta->com.qti.stats_control.hdr_EV_Minus",
                       -30.0
+                    ],
+                    "eq":[
+                      "isTouchActive",
+                      false
                     ]
                   }
                 },
@@ -5015,13 +5031,40 @@
         "algoParamsResult":[
           {
             "defaultResult":{
+              "isPortraitFallback":0,
               "isRemapped":1,
               "mfsrFrameCnt":4,
               "multiFrameCnt":4,
               "turboRawCntCounterReset":0,
               "remapCause":"APS_SWITCH_CAUSE_MEMORY"
             },
-            "plan":null
+            "plan":[
+              {
+                "planCondition":{
+                  "and":{
+                    "eq":[
+                      "isFromMainMenu",
+                      true
+                    ],
+                    "gt":[
+                      "zoomRatio",
+                      2.9999
+                    ],
+                    "lt":[
+                      "zoomRatio",
+                      6.0000
+                    ],
+                    "eq1":[
+                      "oplusMeta->com.oplus.MicroDistance",
+                      101
+                    ]
+                  }
+                },
+                "planResult":{
+                  "isPortraitFallback":1
+                }
+              }
+            ]
           }
         ]
       },
@@ -5347,6 +5390,34 @@
                     0,
                     0
                   ]
+                }
+              }
+            ]
+          },
+          {
+            "defaultResult":{
+              "isPortraitFallback":0
+            },
+            "plan":[
+              {
+                "planCondition":{
+                  "and":{
+                    "gt":[
+                      "zoomRatio",
+                      2.9999
+                    ],
+                    "lt":[
+                      "zoomRatio",
+                      6.0000
+                    ],
+                    "eq":[
+                      "oplusMeta->com.oplus.MicroDistance",
+                      101
+                    ]
+                  }
+                },
+                "planResult":{
+                  "isPortraitFallback":1
                 }
               }
             ]

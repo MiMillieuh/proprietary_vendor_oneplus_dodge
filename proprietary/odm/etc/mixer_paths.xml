@@ -1551,7 +1551,7 @@
         <ctl name="TX_DEC5 Volume" value="84" />
     </path>
 
-    <path name="fourth-mic-test">
+    <path name="bottom-right-mic-test">
         <path name="amic3" />
 
         <ctl name="ADC2 Volume" value="6" />
@@ -1697,7 +1697,7 @@
         <ctl name="TX_DEC5 Volume" value="70" />
     </path>
 
-    <path name="fourth-mic-loopback">
+    <path name="bottom-right-mic-loopback">
         <path name="amic3" />
 
         <ctl name="ADC2 Volume" value="6" />

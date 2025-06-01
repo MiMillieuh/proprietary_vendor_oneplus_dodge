@@ -1,4 +1,4 @@
-     V3.0.18             // ToolVersion 
+     V3.1.2             // ToolVersion 
     0.000000            // system_status.folded_device
     0.057500            // system_status.folded_mic_pos(1)
     0.162000            // system_status.folded_mic_pos(2)
@@ -202,7 +202,7 @@
    30.000000            // normal wns.cut_off_min_energy_level_dB
   100.000000            // normal wns.cut_off_min_freq_Hz
   100.000000            // normal wns.cut_off_max_energy_level_dB
- 8000.000000            // normal wns.cut_off_max_freq_Hz
+ 6900.000000            // normal wns.cut_off_max_freq_Hz
    70.000000            // normal wns.three_mic_change_thr
    45.000000            // normal tuning_para.wns.three_mic_change_thr2
   100.000000            // normal wns.ro_n0_cutoff_Hz

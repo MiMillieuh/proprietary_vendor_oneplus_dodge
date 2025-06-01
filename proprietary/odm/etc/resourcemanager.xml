@@ -263,9 +263,9 @@
                     <channels>1</channels>
                     <snd_device_name>anc-mic-test</snd_device_name>
                 </custom-config>
-                <custom-config key="fourth-mic-record">
+                <custom-config key="bottom-right-mic-record">
                     <channels>1</channels>
-                    <snd_device_name>fourth-mic-test</snd_device_name>
+                    <snd_device_name>bottom-right-mic-test</snd_device_name>
                 </custom-config>
                 <custom-config key="mmi-stero-mic-record">
                     <channels>2</channels>
@@ -382,10 +382,6 @@
             </usecase>
             <usecase>
                 <name>PAL_STREAM_ULTRA_LOW_LATENCY</name>
-                <custom-config key="dual-mic">
-                    <channels>2</channels>
-                    <snd_device_name>handset-dmic-endfire</snd_device_name>
-                </custom-config>
                 <custom-config key="oprec-mic">
                     <channels>2</channels>
                     <snd_device_name>handset-mic</snd_device_name>
@@ -563,10 +559,6 @@
             </usecase>
             <usecase>
                 <name>PAL_STREAM_ULTRA_LOW_LATENCY</name>
-                <custom-config key="dual-mic">
-                    <channels>2</channels>
-                    <snd_device_name>speaker-dmic-endfire</snd_device_name>
-                </custom-config>
                 <custom-config key="oprec-mic">
                     <channels>2</channels>
                     <snd_device_name>speaker-mic</snd_device_name>
