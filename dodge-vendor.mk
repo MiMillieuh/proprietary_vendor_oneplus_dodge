@@ -322,3 +322,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/vendor/etc/sensors/config/qsh_camera_imx688_6_actuator.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera_imx688_6_actuator.json \
     vendor/oneplus/dodge/proprietary/vendor/etc/sensors/config/qsh_camera_ov32c4c_4.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera_ov32c4c_4.json \
     vendor/oneplus/dodge/proprietary/vendor/etc/spr_cfg_AA569_P_3_A0019_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spr_cfg_AA569_P_3_A0019_dsc_cmd_mode_panel.xml
+
+PRODUCT_PACKAGES += \
+    sensors.qsh
